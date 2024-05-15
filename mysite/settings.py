@@ -76,9 +76,9 @@ WSGI_APPLICATION = 'mysite.wsgi.application'
 DATABASES = {
 'default': {
     'ENGINE': 'django.db.backends.mysql',
-    'NAME': 'todolist',
-    'USER': 'root',
-    'PASSWORD': '',
+    'NAME': 'first_django_app',
+    'USER': 'django',
+    'PASSWORD': 'P@ssword!',
     'HOST': 'localhost',
     'PORT': '3306'
 }
